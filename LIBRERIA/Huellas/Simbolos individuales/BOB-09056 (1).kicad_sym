@@ -1,0 +1,247 @@
+
+(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
+  (symbol "BOB-09056" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (id 0) (at -7.62 25.908 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Value" "BOB-09056" (id 1) (at -7.62 -27.94 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Footprint" "BOB-09056:MODULE_BOB-09056" (id 2) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MF" "SparkFun Electronics" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MAXIMUM_PACKAGE_HEIGHT" "N/A" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Package" "None" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Price" "None" (id 7) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Check_prices" "https://www.snapeda.com/parts/BOB-09056/SparkFun/view-part/?ref=eda" (id 8) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "STANDARD" "Manufacturer Recommendations" (id 9) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "PARTREV" "v11" (id 10) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "SnapEDA_Link" "https://www.snapeda.com/parts/BOB-09056/SparkFun/view-part/?ref=snap" (id 11) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MP" "BOB-09056" (id 12) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Description" "\n                        \n                            74HC4067 - Analog and Digital Switch Interface Evaluation Board\n                        \n" (id 13) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Availability" "In Stock" (id 14) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MANUFACTURER" "SparkFun Electronics" (id 15) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (symbol "BOB-09056_0_0"
+      (rectangle (start -7.62 -25.4) (end 7.62 25.4)
+        (stroke (width 0.254)) (fill (type background))
+      )
+      (pin power_in line (at 12.7 -22.86 180.0) (length 5.08)
+        (name "GND"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "JP3-1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 12.7 22.86 180.0) (length 5.08)
+        (name "VCC"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "JP3-2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at 12.7 17.78 180.0) (length 5.08)
+        (name "EN"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "JP3-3"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at 12.7 12.7 180.0) (length 5.08)
+        (name "S0"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "JP3-4"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at 12.7 10.16 180.0) (length 5.08)
+        (name "S1"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "JP3-5"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at 12.7 7.62 180.0) (length 5.08)
+        (name "S2"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "JP3-6"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at 12.7 5.08 180.0) (length 5.08)
+        (name "S3"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "JP3-7"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 12.7 0.0 180.0) (length 5.08)
+        (name "COM"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "JP3-8"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at -12.7 17.78 0) (length 5.08)
+        (name "C0"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "JP1-1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at -12.7 15.24 0) (length 5.08)
+        (name "C1"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "JP1-2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at -12.7 12.7 0) (length 5.08)
+        (name "C2"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "JP1-3"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at -12.7 10.16 0) (length 5.08)
+        (name "C3"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "JP1-4"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at -12.7 7.62 0) (length 5.08)
+        (name "C4"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "JP1-5"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at -12.7 5.08 0) (length 5.08)
+        (name "C5"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "JP1-6"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at -12.7 2.54 0) (length 5.08)
+        (name "C6"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "JP1-7"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at -12.7 0.0 0) (length 5.08)
+        (name "C7"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "JP1-8"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at -12.7 -2.54 0) (length 5.08)
+        (name "C8"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "JP1-9"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at -12.7 -5.08 0) (length 5.08)
+        (name "C9"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "JP1-10"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at -12.7 -7.62 0) (length 5.08)
+        (name "C10"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "JP1-11"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at -12.7 -10.16 0) (length 5.08)
+        (name "C11"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "JP1-12"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at -12.7 -12.7 0) (length 5.08)
+        (name "C12"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "JP1-13"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at -12.7 -15.24 0) (length 5.08)
+        (name "C13"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "JP1-14"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at -12.7 -17.78 0) (length 5.08)
+        (name "C14"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "JP1-15"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at -12.7 -20.32 0) (length 5.08)
+        (name "C15"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "JP1-16"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+    )
+  )
+)
