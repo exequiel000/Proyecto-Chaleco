@@ -1,0 +1,22 @@
+VITALVEST - CODIGOS DE PRUEBA Y FIRMWARE COMPLETO (ESP32, Arduino IDE)
+
+COMO USARLO
+1) Descomprimir. Cada carpeta es un sketch: abrir el .ino que esta adentro.
+2) Arduino IDE > Herramientas > Placa: "ESP32 Dev Module". Elegir el puerto COM.
+3) Monitor Serie a 115200 baudios.
+4) Librerias (Herramientas > Administrar bibliotecas):
+   MPU6050 (Electronic Cats), OneWire, DallasTemperature,
+   SparkFun MAX3010x Pulse and Proximity Sensor Library.
+
+ORDEN RECOMENDADO DE PRUEBAS
+ 01 Escaner I2C ........ ver MPU6050 (0x68) y MAX30102 (0x57)
+ 02 MPU6050 inclinacion . pitch/roll/desviacion en grados + estado
+ 03 DS18B20 temperatura . grados Celsius (-127 = sensor sin conexion)
+ 04 MAX30102 pulso ...... BPM (dedo apoyado, sin apretar)
+ 05 Motor y buzzer ...... verifica los transistores
+ 06 Bateria 1S .......... tension y % (comparar con multimetro)
+ 07 BLE simulado ........ probar la app sin sensores
+ 00 FIRMWARE COMPLETO ... todo junto + BLE
+
+PINES: SDA 21, SCL 22, DS18B20 19, Buzzer 23, Motor 18, Bateria 34, BOOT 0.
+RECALIBRAR: mantener BOOT 1 segundo (o enviar "C" por BLE).
