@@ -110,7 +110,6 @@ Español por defecto + inglés, portugués, chino y tailandés, con opción **Au
 - Fila **Profile**: muestra el correo, permite cambiar la contraseña y ver/copiar el teléfono (solo lectura).
 - Tema claro/oscuro, tamaño de letra, alto contraste.
 - Notificaciones, avisos por voz, dispositivo, rendimiento, privacidad y permisos.
-- *Pendiente:* terminar de hacer funcionales todos estos valores.
 
 ### Pestaña AI
 
@@ -127,7 +126,6 @@ Firebase AI Logic configurado, con App Check (reCAPTCHA Enterprise). La IA ya re
 
 ## 5. Estado del proyecto
 
-- ✅ **Hardware:** ESP32 + MPU6050 + DS18B20 + motor + buzzer + batería 1S, según el diseño de PCB (3 versiones en KiCad).
-- ⚠️ **MAX30102:** con fallas de detección, reemplazo pendiente (el firmware sigue funcionando con BPM = 0 si no se detecta).
-- ⏳ **App:** Settings funcionales, pantalla Timer y lectura BLE real conectada a todas las pantallas.
-- ⏳ **Investigación:** encuesta (5+ preguntas, 25 a 50 años), valor agregado de la app, apps similares (5 a 8), problemática en diarios y redes.
+- ✅ **Hardware:** ESP32 + MPU6050 + DS18B20 + MAX30102 + motor + buzzer + batería 1S, según el diseño de PCB (3 versiones en KiCad).
+- ✅ **MAX30102:** reemplazado y funcionando.
+- ✅ **App:** funcionando y conectada al chaleco.
